@@ -1,41 +1,43 @@
 /*  your css code here. If applicable */
-.header{
-	background-color: #011e29;
+header{
 	color:white;
-	display:flex;
-	justify-content: center;
-	padding:10px;
+	text-align:center;
+	padding:20px;
+	background-color:#011e29;
+
 }
 #container{
 	display:flex;
-	flex-wrap:wrap
-	justify-content:space-between;
-}
+	gap:20px;
 .latest-news-section{
 	background-color:white;
-	color:black;
-	width:200px;
-	border-radius: 10px;
-	padding: 10px;
-	margin-right:2px;
+	border-radius:10px;
+	width:25%;
+	height:150px;
 }
 .main-artical-section{
 	background-color:white;
-	color:black;
-	width:200px;
-	border-radius: 10px;
-	padding: 10px;
-	margin-right:2px;
+	border-radius:10px;
+	width:40%;
+	height:200px;
 }
 .img{
 	width:50%;
 }
 .pictorial-news-section{
 	background-color:white;
-	color:black;
-	width:200px;
-	text-align:centre;
-	border-radius: 10px;
-	padding:10px;
+	border-radius:10px;
+	padding:5px;
+	width:25%;
+	text-align:center;
 	
+}
+	img{
+	width:200px;
+	justify-content:center;
+	
+}
+
+h3,h2{
+	text-align:center;
 }
